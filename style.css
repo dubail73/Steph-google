@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+.gauche {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  margin: 10px;
+}
+button {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+span {
+  display: flex;
+  justify-content: center;
+  color: rgb(188, 179, 179);
+  margin: 10px;
+}
+#France {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.Ecolo {
+  display: flex;
+  justify-content: center;
+}
+#enBas {
+  display: flex;
+  justify-content: space-between;
+}
+.centrerH {
+  display: flex;
+  align-items: center;
+}
+.profil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(121, 208, 251);
+  font-size: 10px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.bouton {
+  margin: 10px;
+  background-color: rgb(248, 248, 248);
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bouton:hover {
+  background-color: rgb(142, 49, 49);
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  border-radius: 20px;
+  border: #d4d4d4 1px solid;
+}
+
+input:hover {
+  box-shadow: #d4d4d4 1px 1px 5px;
+}
+
+img {
+  width: 300px;
+}
